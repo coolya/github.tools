@@ -1,0 +1,4 @@
+FSharp.Core
+Microsoft.NET.Sdk.Functions
+Microsoft.AspNetCore.Mvc.Core
+Newtonsoft.Json

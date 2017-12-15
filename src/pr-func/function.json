@@ -1,0 +1,13 @@
+{
+    "bindings": [
+      {
+        "type": "httpTrigger",
+        "methods": ["post"],
+        "authLevel": "anonymous",
+        "name": "req",
+        "route": "newpr"
+      }
+    ],
+    "scriptFile": "../bin/functions.dll",
+    "entryPoint": "pr.func.PrecompiledHttp.run"
+  }
